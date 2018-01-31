@@ -1,7 +1,7 @@
 {
     "name": "kptec/kp-bundle",
     "type": "contao-bundle",
-    "description": "Adds functions for the Larbig & Mortag website",
+    "description": "Bootstrap Plugin for adding features to Contao 4",
     "license": "MIT",
     "homepage": "http://www.koenigspunkt-technologies.de",
     "authors": [
