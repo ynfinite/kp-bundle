@@ -1,0 +1,9 @@
+services:
+  ynfinite.contao-com.listener.communication:
+    class: 'Kptec\KpBundle\EventListener\ExtYnfiniteCommunicationService'
+    arguments:
+      - "@contao.framework"
+  ynfinite.contao-com.email:
+    class: 'Kptec\KpBundle\EventListener\ExtYnfiniteEmailService'
+    arguments:
+      - "@contao.framework"

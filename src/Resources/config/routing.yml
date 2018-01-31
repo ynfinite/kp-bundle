@@ -1,0 +1,4 @@
+kptec-contao-com-debug:
+  path: /kptec/debug/
+  defaults:
+    _controller: "KptecKpBundle:Debug:index"

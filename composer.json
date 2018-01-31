@@ -1,0 +1,49 @@
+{
+    "name": "kptec/lm-bundle",
+    "type": "contao-bundle",
+    "description": "Adds functions for the Larbig & Mortag website",
+    "license": "MIT",
+    "homepage": "http://www.koenigspunkt-technologies.de",
+    "authors": [
+        {
+            "name": "Markus Claus",
+            "email": "m.claus@koenigspunkt-technologies.de",
+            "homepage": "http://www.koenigspunkt-technologies.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "symfony/framework-bundle": "~3.3",
+        "contao/core-bundle": "~4.4.0",
+        "Doctrine/ORM": "^2.5",
+        "doctrine/data-fixtures": "1.0.*",
+        "doctrine/dbal": "~2.4"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "~2.0"
+    },
+    "conflict": {
+        "contao/core": "*",
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kptec\\LmBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kptec\\LmBundle\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "support": {
+        "forum": "http://www.koenigspunkt-technologies.de"
+    },
+    "extra": {
+        "contao-manager-plugin": "Kptec\\LmBundle\\ContaoManager\\Plugin"
+    }
+} 
