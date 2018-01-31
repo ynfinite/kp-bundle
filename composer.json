@@ -1,5 +1,5 @@
 {
-    "name": "kptec/lm-bundle",
+    "name": "kptec/kp-bundle",
     "type": "contao-bundle",
     "description": "Adds functions for the Larbig & Mortag website",
     "license": "MIT",
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Kptec\\LmBundle\\": "src/"
+            "Kptec\\KpBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kptec\\LmBundle\\Tests\\": "tests/"
+            "Kptec\\KpBundle\\Tests\\": "tests/"
         }
     },
     "config": {
@@ -44,6 +44,6 @@
         "forum": "http://www.koenigspunkt-technologies.de"
     },
     "extra": {
-        "contao-manager-plugin": "Kptec\\LmBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Kptec\\KpBundle\\ContaoManager\\Plugin"
     }
 } 
